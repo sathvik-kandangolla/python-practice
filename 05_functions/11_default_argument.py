@@ -1,4 +1,3 @@
-def greet (a,b=40):
-    print(a)
-    print(b)
+def greet (a,b=0):
+    print(a,b)
 greet(10)
