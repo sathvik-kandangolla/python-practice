@@ -1,5 +1,8 @@
-def inverted_triangle(rows):
-    for i in range(rows, 0, -1):
-        print("*" * i)
+def number_triangle(rows):
+    for i in range(1, rows + 1):
+        for j in range(1, i + 1):
+            print(j, end=" ")
+        print()
 
-inverted_triangle(5)
+number_triangle(5)
+
