@@ -2,7 +2,7 @@
 
 Input: "aaabbcddd"
 Expected Output: "abcd"
-'''
+''' 
 
 def remove_consecutive(s):
     result = s[0]
