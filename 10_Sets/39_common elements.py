@@ -1,0 +1,15 @@
+'''
+Given two lists of values, write a Python program to find the common elements between them using sets.
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+
+Output:
+
+{3, 4}
+
+'''
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+common = set(list1) & set(list2)
+print(common)
+
